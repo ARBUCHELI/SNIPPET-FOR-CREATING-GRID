@@ -1,0 +1,39 @@
+body {
+    text-align: center; /*This command places all the content of the page in the center.*/
+}
+
+h1 {
+    font-family: Times-New-Roman; /*Style of the title of the app*/
+    font-size: 40px;
+    margin: 0.2em; /*Margin of the app*/
+}
+
+h2 {
+    margin: 1em 0 0.25em; /*Margin of the subtitles*/
+}
+
+table,
+tr,
+td {
+    border: 1px solid blue; /*The border of the rows and the columns that form the grid are black*/
+}
+
+table {
+    border-collapse: collapse; /*Collapse the borders to create the grid effect*/
+    margin: 0 auto; /*Tells the browser to determine the margins itself, because the size of the grid is variable*/
+}
+
+tr {
+    height: 20px; /*Height of the cells of the table*/
+}
+
+td {
+    width: 20px; /*Width of the cells of the table*/
+}
+
+input[type=number] { /*Width of the boxes where the height and width of the grid are selected*/
+    width: 6em;
+}
+
+
+
