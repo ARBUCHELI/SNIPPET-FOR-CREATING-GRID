@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton"> <!--Import of text-font-->
+    <link rel="stylesheet" href="styles.css"> <!--Link to style css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--Import of jQuery (Used for DOM manipulation and event handling-->
+</head>
+<body>
+    <h1>Grid</h1> <!--Title of the website-->
+
+    <h2>Choose Grid Size</h2> <!--Invitation for User to choose grid size-->
+    <form id="sizePicker"> <!--Form used for input Height and Width of the grid-->
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1"> <!--Takes data from the user.  The minimun value is 1-->
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="1"> <!--Takes data from the user.  The minimun value is 1-->
+        <input type="submit">
+    </form>
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"> <!--Design of the grid-->
+    </table>
+
+    <script src="render.js"></script> <!--Link to JavaScript-->
+</body>
+</html>
