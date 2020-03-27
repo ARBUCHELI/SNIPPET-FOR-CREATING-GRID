@@ -2,4 +2,4 @@
 
 Code snippet that can be used for creating a grid for a web app.
 
-![INITIAL](https://github.com/anferebu/PIXEL-ART/blob/master/Initial.jpg)
+![CHOOSE GRID SIZE](https://github.com/anferebu/SNIPPET-FOR-CREATING-GRID/blob/master/Choose%20Grid%20Size.jpg)
